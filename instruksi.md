@@ -1,18 +1,14 @@
-# Asesmen menulis komentar di JavaScript
+# Asesmen menulis kode JavaScript dengan gaya yang konsisten
 
-## Instruksi pengerjaan `01-writing-comments`
-Kerjakan tugas berikut untuk menyelesaikan _task_ `01-writing-comments`:
-1. Buka berkas `index.js` dan tuliskan "username" akun Dicoding Anda dalam bentuk **komentar satu baris**.
-2. Buka berkas `index.js` dan tuliskan teks di bawah ini dalam bentuk **komentar banyak baris**.
+## Instruksi pengerjaan
+1. Buka berkas `index.js`.
+2. Perbaiki gaya penulisan kode sesuai ketentuan yang dijelaskan di bagian **aturan gaya penulisan**.
 
-```text
-Goal tahun ini:
-1. Belajar JavaScript.
-2. Menjadi Front-End atau Back-End Developer.
-```
+## Aturan gaya penulisan
+1. Terdapat semicolon `;` di setiap akhir statement.
+2. Indentasi sebesar **2 spasi**.
+3. Harus menggunakan `const` jika variabel tidak diubah (_reassign_) nilainya.
+4. Selalu tambahkan spasi di antara tanda `{ }` dan nama properti yang didefinsikan dalam satu baris.
 
-## Cara mengetahui username Dicoding
-1. Buka halaman pengaturan akun Dicoding dengan klik url [https://www.dicoding.com/settings/profile](https://www.dicoding.com/settings/profile).
-2. Jika belum login, silakan login dengan akun Dicoding yang Anda miliki.
-4. Anda bisa lihat pada bagian kolom Username dan menyalinnya.
-
+## Informasi lainnya
+Anda bebas menggunakan tools apa pun untuk bantu analisis konsistensi penulisan kode. Contoh ESLint, Prettier, dsb.
